@@ -1,0 +1,223 @@
+@media screen and (min-width: 1200px) {
+    .tbilisi {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        justify-content: space-between;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .sms {
+        padding-right: 10px;
+    }
+    .tbilisi {
+        width: 407px;
+        height: 228.5px;
+        padding: 0;
+    }
+    .paragraf {
+        width: 407px;
+    }
+    .video {
+        width: 960px;
+        height: 400px;
+    }
+    .dance, .food, .women, .travel {
+        width: 15rem;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .sms {
+        padding-right: 10px;
+    }
+    .tbilisi {
+        width: 610px;
+        height: 342.75px;
+        padding: 0;
+    }
+    .paragraf {
+        width: 600px;
+    }
+    .video {
+        width: 720px;
+        height: 300px;
+    }
+    a.order {
+        margin-bottom: 25px;
+    }
+    .dance, .food, .women, .travel {
+        width: 700px;
+        border-radius: 15px;
+    }
+    .gallery {
+        text-align: center;
+    }
+    .wrapper2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot3 {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width:540px;
+    }
+    .wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .sms {
+        padding-right: 10px;
+    }
+    .tbilisi {
+        width: 488px;
+        height: 274.2px;
+        padding: 0;
+    }
+    .paragraf {
+        width: 480px;
+    }
+    .video {
+        width: 540px;
+        height: 300px;
+    }
+    a.order {
+        margin-bottom: 25px;
+    }
+    ul {
+        padding: 0;
+    }
+    .heading1 {
+        font-size: 92px;
+    }
+    .dance, .food, .women, .travel {
+        width: 520px;
+        border-radius: 15px;
+    }
+    .gallery {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 300px;
+    }
+    .wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .sms {
+        padding-right: 10px;
+    }
+    .tbilisi {
+        width: 292.8px;
+        height: 164.5px;
+        padding: 0;
+    }
+    .paragraf {
+        width: 290px;
+        font-size: 15px
+    }
+    .paragraf1 {
+        font-size: 25px;
+    }
+    .video {
+        width: 300px;
+        height: 175px;
+    }
+    a.order {
+        margin-bottom: 25px;
+    }
+    ul {
+        padding: 0;
+    }
+    .heading1 {
+        font-size: 40px;
+    }
+    .heading2 {
+        font-size: 26px;
+    }
+    .heading3 {
+        font-size: 30px;
+    }
+    .heading4 {
+        font-size: 25px;
+    }
+    .hr1 {
+        width: 100px;
+    }
+    .hr3 {
+        width: 200px;
+    }
+    .sms img {
+        width: 16px;
+        height: 16px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .proverbtext {
+        font-size: 15px
+    }
+    .proverbname {
+        font-size: 20px
+    }
+    a.btn {
+        text-decoration: none;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .plan {
+        padding-right: 9px;
+    }
+    .dance, .food, .women, .travel {
+        width: 280px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width: 300px){
+    .video {
+    width: 200px;
+    margin: 0 auto;
+    height: 140px;
+    }
+    .dance, .food, .women, .travel {
+        width: 15rem;
+        border-radius: 15px;
+    }
+}

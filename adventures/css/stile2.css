@@ -1,0 +1,265 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.footer {
+    background-color: #1B1F23;
+}
+
+.foot1 {
+    margin-right: 20px;
+}
+
+.foot2 {
+    margin-right: 20px;
+}
+
+.foot3 {
+    margin-left: 20px;
+}
+
+.first {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/georgia.jpg');
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.heading1 {
+    margin: 0;
+    font-size: 116px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+.heading2 {
+    margin: 0;
+    font-size: 48px;;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.heading3 {
+    color: #2270A6;
+    font-size: 34px;
+    padding-top: 24px;
+    margin: 0;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.heading4 {
+    color: #6EC1E4;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading5 {
+    font-size: 36px;
+    font-family: 'Prata', serif;
+}
+
+.heading6 {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper3 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sms img {
+    width: 16px;
+    height: 16px;
+    padding: 11px;
+    background-color:#226fa69f;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.sms img:hover {
+ background-color: rgba(255, 255, 255, 0.435);
+ border-radius: 18px;
+ transition: all 1s ease;
+}
+
+.logo {
+    color: #2270A6;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1B1F23;
+}
+
+
+.paragraf {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-family: serif;
+    width: 500px;
+}
+
+.paragraf3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+
+.pre {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+}
+
+.tour img {
+    border-radius: 15px;
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.info {
+    margin-bottom: 70px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(149, 149, 149);
+    border-radius: 100px;
+  }
+
+
+.label1, .label2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid wheat;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.moon {
+    height: 3rem;
+}
+
+#check{
+    position: relative;
+    display: none;
+    transition: 2s ease;
+  }
+
+  #check:checked ~ .body1 {
+    background-color: rgb(27, 31, 35);
+    color: #fff;
+    transition: 2s ease;
+  }
+
+  #check:not(:checked) ~ .body1 {
+    background-color: rgb(255, 255, 255);
+    transition: 2s ease;
+  }
+
+  #check:checked ~ .body1>.footer {
+    background-color: black;
+    transition: 2s ease;
+  }
+
+
+  .body1>label {
+    position: relative;
+    width: 15rem;
+    height: 2rem;
+    z-index: 0;
+    font-size: 30px;
+  }
+
+  #check:checked ~ .body1>.footer>.container>.wrapper2>.foot3>.label1 {
+    display: none;
+  }
+
+  #check:checked ~ .body1>.footer>.container>.wrapper2>.foot3>.label2>img {
+    animation: 1s ease rotate4;
+  }
+
+  #check:not(:checked) ~ .body1>.footer>.container>.wrapper2>.foot3>.label2 {
+    display: none;
+  }
+
+  #check:not(:checked) ~ .body1>.footer>.container>.wrapper2>.foot3>.label1>img {
+    animation: 1s ease rotate3;
+  }
+
+  #check:checked ~ .body1>.servises>.container>.wrapper>.servise>.paragraf1 {
+    color: white;
+  }
+
+  #check:checked ~ .body1>.proverb>.container>.proverbtext {
+    color: white;
+  }
+
+  
+  @keyframes rotate3 {
+    50%{
+        transform: rotate(50deg);
+    }
+  }
+
+  @keyframes rotate4 {
+    100%{
+        transform: rotate(360deg);
+    }
+  }

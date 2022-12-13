@@ -1,0 +1,427 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.footer {
+    background-color: #1B1F23;
+}
+
+.foot1 {
+    margin-right: 20px;
+}
+
+.foot2 {
+    margin-right: 20px;
+}
+
+.foot3 {
+    margin-left: 20px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sms img {
+    width: 16px;
+    height: 16px;
+    padding: 11px;
+    background-color:#226fa69f;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.sms img:hover {
+ background-color: rgba(255, 255, 255, 0.435);
+ border-radius: 18px;
+ transition: all 1s ease;
+}
+
+.logo {
+    color: #2270A6;
+    font-size: 17px;
+}
+
+header {
+    background-color: #1B1F23;
+}
+
+.first {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/tbili.jpg');
+    height: 100vh;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.heading1 {
+    margin: 0;
+    font-size: 116px;
+    padding-top: 19px;
+    align-items: center;
+}
+
+.heading2 {
+    margin: 0;
+    font-size: 48px;;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.heading3 {
+    color: #2270A6;
+    font-size: 48px;
+    padding-top: 24px;
+    margin: 0;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.heading4 {
+    color: rgb(60, 55, 55);
+    text-align: center;
+    color: #6EC1E4;
+    font-size: 30px;
+}
+
+.heading5 {
+    font-size: 36px;
+    font-family: 'Prata', serif;
+}
+
+.heading6 {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.pre {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+}
+
+.paragraf {
+    color: rgba(91, 86, 86, 0.922);
+    text-align: center;
+    width: 528px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraf1 {
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 64px;
+    padding-top: 16px;
+}
+
+.paragraf2 {
+    padding-bottom: 0;
+}
+
+.paragraf3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+.hr1 {
+    width: 480px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+}
+
+.hr2 {
+    width: 160px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 3em;
+    border: none;
+}
+
+.hr3 {
+    width: 20em;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 48px;
+    margin: 0;
+    border: none;
+}
+
+a.btn {
+    animation: 3s  ease;
+    border-radius: 15px;
+    background: rgba(242,41,91,1);
+    background: -moz-linear-gradient(-45deg, rgba(242,41,91,1) 0%, rgba(34,112,166,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,41,91,1)), color-stop(100%, rgba(34,112,166,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(242,41,91,1) 0%, rgba(34,112,166,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(242,41,91,1) 0%, rgba(34,112,166,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(242,41,91,1) 0%, rgba(34,112,166,1) 100%);
+    background: linear-gradient(135deg, rgba(242,41,91,1) 0%, rgba(34,112,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2295b', endColorstr='#2270a6', GradientType=1 );
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 128px;
+    font-family: 'Roboto', sans-serif;
+    animation: 3s  ease;
+}
+
+a.btn:hover {
+    animation: 3s  ease;
+    background: rgba(34,112,166,1);
+    background: -moz-linear-gradient(-45deg, rgba(34,112,166,1) 0%, rgba(242,41,91,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(34,112,166,1)), color-stop(100%, rgba(242,41,91,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(34,112,166,1) 0%, rgba(242,41,91,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(34,112,166,1) 0%, rgba(242,41,91,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(34,112,166,1) 0%, rgba(242,41,91,1) 100%);
+    background: linear-gradient(135deg, rgba(34,112,166,1) 0%, rgba(242,41,91,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2270a6', endColorstr='#f2295b', GradientType=1 );
+    animation: 3s ease;
+    border-radius: 100px;
+    animation: 3s  ease;
+}
+
+a.btn1 {
+    background: rgba(110,193,228,1);
+    background: -moz-linear-gradient(-45deg, rgba(110,193,228,1) 0%, rgba(97,206,112,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(110,193,228,1)), color-stop(100%, rgba(97,206,112,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(110,193,228,1) 0%, rgba(97,206,112,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(110,193,228,1) 0%, rgba(97,206,112,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(110,193,228,1) 0%, rgba(97,206,112,1) 100%);
+    background: linear-gradient(135deg, rgba(110,193,228,1) 0%, rgba(97,206,112,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ec1e4', endColorstr='#61ce70', GradientType=1 );
+    animation: 3s  ease;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 155px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+a.btn1:hover {
+    background: rgba(97,206,112,1);
+    background: -moz-linear-gradient(-45deg, rgba(97,206,112,1) 0%, rgba(110,193,228,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(97,206,112,1)), color-stop(100%, rgba(110,193,228,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(97,206,112,1) 0%, rgba(110,193,228,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(97,206,112,1) 0%, rgba(110,193,228,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(97,206,112,1) 0%, rgba(110,193,228,1) 100%);
+    background: linear-gradient(135deg, rgba(97,206,112,1) 0%, rgba(110,193,228,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ce70', endColorstr='#6ec1e4', GradientType=1 );
+    border-radius: 100px;
+}
+
+.tours {
+    text-align: center;
+}
+
+.list {
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.plan {
+    margin-top: 10px;
+}
+
+.proverb {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.proverbtext {
+    color: black;
+    font-size: 25px;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.proverbname {
+    color: #6EC1E4;
+    font-size: 24px;
+}
+
+.arrow {
+    width: 32px;
+    height: 36px;
+}
+
+.tbilisi {
+    width: 570px;
+    height: 320px;
+    padding-right: 12px;
+    border-radius: 20px;
+}
+
+.li1 {
+    align-items: center;
+    list-style: none;
+}
+
+.exp {
+    text-align: left;
+}
+
+.explore {
+    background-image: url('../img/para.jpg');
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 112px;
+}
+
+.servises {
+    text-align: left;
+}
+
+
+.dance, .food, .women, .travel {
+    width: 15rem;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(149, 149, 149);
+    border-radius: 100px;
+  }
+
+
+
+.label1, .label2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid wheat;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.moon {
+    height: 3rem;
+}
+
+#check{
+    position: relative;
+    display: none;
+    transition: 2s ease;
+  }
+
+  #check:checked ~ .body1 {
+    background-color: rgb(27, 31, 35);
+    color: #fff;
+    transition: 2s ease;
+  }
+
+  #check:not(:checked) ~ .body1 {
+    background-color: rgb(255, 255, 255);
+    transition: 2s ease;
+  }
+
+  #check:checked ~ .body1>.footer {
+    background-color: black;
+    transition: 2s ease;
+  }
+
+
+  .body1>label {
+    position: relative;
+    width: 15rem;
+    height: 2rem;
+    z-index: 0;
+    font-size: 30px;
+  }
+
+  #check:checked ~ .body1>.footer>.container>.wrapper2>.foot3>.label1 {
+    display: none;
+  }
+
+  #check:not(:checked) ~ .body1>.footer>.container>.wrapper2>.foot3>.label1>img {
+    animation: 1s ease rotate3;
+  }
+
+  #check:not(:checked) ~ .body1>.footer>.container>.wrapper2>.foot3>.label2 {
+    display: none;
+  }
+
+  #check:checked ~ .body1>.footer>.container>.wrapper2>.foot3>.label2>img {
+    animation: 1s ease rotate4;
+  }
+
+  #check:checked ~ .body1>.servises>.container>.wrapper>.servise>.paragraf1 {
+    color: white;
+  }
+
+  #check:checked ~ .body1>.proverb>.container>.proverbtext {
+    color: white;
+  }
+
+  @keyframes rotate3 {
+    50%{
+        transform: rotate(50deg);
+    }
+  }
+
+  @keyframes rotate4 {
+    100%{
+        transform: rotate(360deg);
+    }
+  }
